@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3e5ab;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #game {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #cookie-container {
+    margin: 20px 0;
+  }
+  
+  #cookie {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  #cookie:active {
+    transform: scale(0.9);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+
+  #uvod {
+    color: red;
+  }
+
+  #sundej-boty-image {
+    display: none; /* Hidden initially */
+    position: absolute; /* Needed to move it to random positions */
+    width: 200px; /* Increased size */
+    height: auto; /* Keep aspect ratio */
+    border: 2px solid black;
+  }
